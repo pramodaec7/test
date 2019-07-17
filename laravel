@@ -1,1 +1,6 @@
-laravel tutorial
+create a laravel project
+$ composer create-project --prefer-dist laravel/laravel blog
+$ php artisan serve
+$ cd blog
+$ sudo chmod -R 775 public/ bootstrap/cache/
+$ sudo mv .env.example .env
